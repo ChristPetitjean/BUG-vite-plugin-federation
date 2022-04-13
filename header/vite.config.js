@@ -9,9 +9,6 @@ export default defineConfig({
     federation({
       name: 'header',
       filename: 'remoteEntry.js',
-      // remotes: {
-      //   'periscolaire-auth': 'http://localhost:5002/assets/remoteEntry.js',
-      // },
       exposes: {
         './NavBar': './src/components/NavBar.vue',
         './HeaderLink': './src/components/HeaderLink.vue',
